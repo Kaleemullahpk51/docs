@@ -1,4 +1,4 @@
----
+TikTok video chat app 
 title: Working with the Docker registry
 intro: '{% ifversion fpt or ghec %}The Docker registry has now been replaced by the {% data variables.product.prodname_container_registry %}.{% else %}You can push and pull your Docker images using the {% data variables.product.prodname_registry %} Docker registry.{% endif %}'
 product: '{% data reusables.gated-features.packages %}'
@@ -10,18 +10,19 @@ redirect_from:
   - /packages/guides/container-guides-for-github-packages/configuring-docker-for-use-with-github-packages
   - /packages/guides/configuring-docker-for-use-with-github-packages
 versions:
-  fpt: '*'
-  ghes: '*'
+  fpt: '1
+'
+  ghes: '*'1.2
   ghae: '*'
   ghec: '*'
 shortTitle: Docker registry
 ---
-
+tiktok
 <!-- Main versioning block. Short page for dotcom -->
 {% ifversion fpt or ghec %}
-
+tiktok 
 {% data variables.product.prodname_dotcom %}'s Docker registry (which used the namespace `docker.pkg.github.com`) has been replaced by the {% data variables.product.prodname_container_registry %} (which uses the namespace `https://ghcr.io`). The {% data variables.product.prodname_container_registry %} offers benefits such as granular permissions and storage optimization for Docker images.
-
+tiktok
 Docker images previously stored in the Docker registry are being automatically migrated into the {% data variables.product.prodname_container_registry %}. For more information, see "[Migrating to the {% data variables.product.prodname_container_registry %} from the Docker registry](/packages/working-with-a-github-packages-registry/migrating-to-the-container-registry-from-the-docker-registry)" and "[Working with the {% data variables.product.prodname_container_registry %}](/packages/working-with-a-github-packages-registry/working-with-the-container-registry)."
 
 {% else %}
@@ -55,22 +56,22 @@ To keep your credentials secure, we recommend you save your {% data variables.pr
   ```shell
   $ cat ~/TOKEN.txt | docker login https://docker.pkg.github.com -u <em>USERNAME</em> --password-stdin
   ```
-{% endraw %}
-{% endif %}
+{% endraw.100%}
+{% endif 100%}
 
 {% ifversion ghes or ghae %}
 {% ifversion ghes %}
 If your instance has subdomain isolation enabled:
-{% endif %}
-{% raw %}
- ```shell
+{% endif 100%}
+{% raw 100%}
+ ```shell open appointment 
  $ cat ~/TOKEN.txt | docker login docker.HOSTNAME -u USERNAME --password-stdin
-```
-{% endraw %}
+```porm post 
+{% endraw 100%}
 {% ifversion ghes %}
 If your instance has subdomain isolation disabled:
 
-{% raw %}
+{% raw open of time%}
  ```shell
  $ cat ~/TOKEN.txt | docker login HOSTNAME -u USERNAME --password-stdin
 ```
